@@ -1,0 +1,289 @@
+<?php 
+  //É executado graças ao código no htaccess
+  header('Content-Type: text/html; charset=utf-8');
+?>
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="Philiphe Kramer" />
+
+    <title>Jacob Luthier - Instrumentos Musicais</title>
+
+    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="/">Jacob Luthier</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html"
+                >Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="servicos.html">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#produtos">Mostruário</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contato">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="contact-nav"></div>
+
+    <header class="py-5 mb-5" style="background-image:url(img/background.jpg);background-size: cover">
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="col-lg-12">
+            <h1 class="display-4 text-white mt-5 mb-2">
+              Jacob Luthier
+            </h1>
+            <p class="lead mb-5 text-white">
+              O que caracteriza cada um dos nossos modelo é a seleção criteriosa dos materiais (madeiras, tarrachas,
+              trastes) usados na fabricação do instrumento assim como o maior detalhamento na construção e acabamento.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container my-3">
+        <div class="col-lg-12">
+          <div class="row text-center text-white">
+            <div class="col-lg-4">
+              <a class="btn btn-outline-light btn-block py-2" href="servicos.html#manufatura" role="button">
+                <h4 class="texto-fino">Manufatura</h4>
+              </a>
+            </div>
+            <div class="col-lg-4">
+              <a class="btn btn-outline-light btn-block py-2" href="servicos.html#modelos" role="button">
+                <h4 class="texto-fino">Modelos</h4>
+              </a>
+            </div>
+            <div class="col-lg-4">
+              <a class="btn btn-outline-light btn-block py-2" href="servicos.html#madeiras" role="button">
+                <h4 class="texto-fino">Madeiras</h4>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="row">
+        <a class="anchor" id="produtos"></a>
+        <div class="col-md-8">
+          <h2 class="paleta1">Mostruário</h2>
+          <hr />
+          <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <a href="/produtos/item1.html">
+                  <img class="card-img-top" src="/img/mostruario/item-1.jpg" alt="" />
+                </a>
+                <div class="card-body flex-column d-flex">
+                  <h6 class="card-subtitle mb-2 text-muted">Modelo Luxo</h6>
+                  <h5 class="card-title">
+                    <p class="paleta1">Cavaco Jacarandá Imperial Negro</p>
+                  </h5>
+                  <a href="/produtos/item1.html" class="btn btn-sm btn-outline-dark btn-madeiras mt-auto"
+                    >Mais informações</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <a href="/produtos/item2.html">
+                  <img class="card-img-top" src="/img/mostruario/item-2.jpg" alt="" />
+                </a>
+                <div class="card-body flex-column d-flex">
+                  <h6 class="card-subtitle mb-2 text-muted">Modelo Luxo</h6>
+                  <h5 class="card-title">
+                    <p class="paleta1">Cavaco em Faia</p>
+                  </h5>
+                  <a href="/produtos/item2.html" class="btn btn-sm btn-outline-dark btn-madeiras mt-auto"
+                    >Mais informações</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <a href="item.html">
+                  <img class="card-img-top" src="/img/mostruario/item-3.jpg" alt="" />
+                </a>
+                <div class="card-body flex-column d-flex">
+                  <h6 class="card-subtitle mb-2 text-muted">Modelo Super Luxo</h6>
+                  <h5 class="card-title">
+                    <p class="paleta1">Bandolim Jacarandá Imperial</p>
+                  </h5>
+                  <a href="#" class="btn btn-sm btn-outline-dark btn-madeiras mt-auto">Mais informações</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <a href="#">
+                  <img class="card-img-top" src="/img/mostruario/item-4.jpg" alt="" />
+                </a>
+                <div class="card-body flex-column d-flex">
+                  <h6 class="card-subtitle mb-2 text-muted">Modelo Super Luxo</h6>
+                  <h5 class="card-title">
+                    <p class="paleta1">Banjo em Jacarandá Imperial</p>
+                  </h5>
+                  <a href="#" class="btn btn-sm btn-outline-dark btn-madeiras mt-auto">Mais informações</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <a href="item.html">
+                  <img class="card-img-top" src="/img/mostruario/item-5.jpg" alt="" />
+                </a>
+                <div class="card-body flex-column d-flex">
+                  <h6 class="card-subtitle mb-2 text-muted">Modelo Super Luxo</h6>
+                  <h5 class="card-title">
+                    <p class="paleta1">Cavaco em Jacarandá</p>
+                  </h5>
+                  <a href="#" class="btn btn-sm btn-outline-dark btn-madeiras mt-auto">Mais informações</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <a href="item.html">
+                  <img class="card-img-top" src="/img/mostruario/item-6.jpg" alt="" />
+                </a>
+                <div class="card-body  flex-column d-flex">
+                  <h6 class="card-subtitle mb-2 text-muted">Modelo Super Luxo</h6>
+                  <h5 class="card-title">
+                    <p class="paleta1" href="item.html">Cavaco em Jacarandá</p>
+                  </h5>
+                  <a href="#" class="btn btn-sm btn-outline-dark btn-madeiras mt-auto">Mais informações</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <a class="anchor" id="funcionamento"></a>
+          <div class="card my-4">
+            <h5 class="card-header text-center background3 text-white">Horário de Funcionamento</h5>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="cta-inner text-center rounded">
+                    <ul class="list-unstyled list-hours mb-3 text-left mx-auto">
+                      <li class="list-unstyled-item list-hours-item d-flex">
+                        Domingo
+                        <span class="ml-auto">Fechado</span>
+                      </li>
+                      <li class="list-unstyled-item list-hours-item d-flex">
+                        Segunda
+                        <span class="ml-auto">07:00 ás 18:00</span>
+                      </li>
+                      <li class="list-unstyled-item list-hours-item d-flex">
+                        Terça
+                        <span class="ml-auto">07:00 ás 18:00</span>
+                      </li>
+                      <li class="list-unstyled-item list-hours-item d-flex">
+                        Quarta
+                        <span class="ml-auto">07:00 ás 18:00</span>
+                      </li>
+                      <li class="list-unstyled-item list-hours-item d-flex">
+                        Quinta
+                        <span class="ml-auto">07:00 ás 18:00</span>
+                      </li>
+                      <li class="list-unstyled-item list-hours-item d-flex">
+                        Sexta
+                        <span class="ml-auto">07:00 ás 18:00 </span>
+                      </li>
+                      <li class="list-unstyled-item list-hours-item d-flex">
+                        Sabado
+                        <span class="ml-auto">07:00 ás 18:00</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="anchor" id="contato"></a>
+          <div class="card my-4">
+            <h5 class="card-header text-center background3 text-white">Endereço e Contato</h5>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="cta-inner text-center rounded">
+                    <p class="address mb-5">
+                      <em>
+                        <strong>Rua de teste - Nª 256</strong>
+                        <br />
+                        Centro, Itabuna
+                      </em>
+                    </p>
+                    <p class="mb-0">
+                      <small>
+                        <em>Ligue a qualquer momento</em>
+                      </small>
+                      <br />
+                      73 9 8882 0706
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container my-5">
+      <div class="card">
+        <div class="card-body text-center alerta py-3">
+          <i class="fas fa-exclamation-triangle"></i> Encomendas e compras somente por telefone ou presencialmente.
+        </div>
+      </div>
+    </div>
+
+    <div id="footer"></div>
+
+    <script src="/vendor/jquery/jquery.min.js"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>

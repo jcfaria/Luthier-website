@@ -1,0 +1,590 @@
+<?php 
+  header('Content-Type: text/html; charset=utf-8');
+?>
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Jacob Luthier - Instrumentos Musicais</title>
+
+    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="/">Jacob Luthier</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/servicos.html">Serviços</a>
+              <span class="sr-only">(current)</span>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html#produtos">Mostruário</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html#contato">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="contact-nav"></div>
+
+    <div class="container pb-5">
+      <h1 class="mt-4 mb-3 paleta1">
+        Jacob
+        <small>Luthier</small>
+      </h1>
+
+      <div class="card my-4">
+        <div class="card-body alerta py-3">
+          <i class="fas fa-exclamation-triangle"></i> Encomendas e compras somente por telefone ou presencialmente.
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="alert text-center background3 text-white">
+            <h5>Manufatura de Instrumentos</h5>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <a class="anchor" id="manufatura"></a>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><i class="fas fa-caret-right"></i> Violão de 7 cordas</li>
+                <li class="list-group-item"><i class="fas fa-caret-right"></i> Violão de 6 cordas</li>
+                <li class="list-group-item"><i class="fas fa-caret-right"></i> Cavaquinho</li>
+                <li class="list-group-item"><i class="fas fa-caret-right"></i> Bandolim</li>
+                <li class="list-group-item"><i class="fas fa-caret-right"></i> Banjo</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="alert text-center background3 text-white">
+            <h5>Modelos</h5>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <a class="anchor" id="modelos"></a>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><i class="fas fa-caret-right"></i> Clássico</li>
+                <li class="list-group-item"><i class="fas fa-caret-right"></i> Luxo</li>
+                <li class="list-group-item"><i class="fas fa-caret-right"></i> Super Luxo</li>
+                <li class="list-group-item better-text">
+                  <p>
+                    Cada instrumento é fabricado nos três modelos acima. O que caracteriza cada modelo é a seleção
+                    criteriosa dos materiais (madeiras, tarrachas, trastes) usados na fabricação do instrumento assim
+                    como o maior detalhamento na construção e acabamento.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row my-3">
+        <div class="col-lg-12">
+          <a class="anchor" id="madeiras"></a>
+          <div class="alert text-center background3 text-white">
+            <h5>Madeiras</h5>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <p class="text-center">
+            <a
+              class="btn btn-madeiras btn-outline-dark active"
+              data-toggle="collapse"
+              href="#collapseExample"
+              role="button"
+              aria-expanded="true"
+              aria-controls="collapseExample1"
+            >
+              Jacarandá
+            </a>
+            <button
+              class="btn btn-madeiras btn-outline-dark"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapseExample2"
+              aria-expanded="false"
+              aria-controls="collapseExample2"
+            >
+              Imbuia
+            </button>
+            <a
+              class="btn btn-madeiras btn-outline-dark"
+              data-toggle="collapse"
+              href="#collapseExample3"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample3"
+            >
+              Roxinho
+            </a>
+            <a
+              class="btn btn-madeiras btn-outline-dark"
+              data-toggle="collapse"
+              href="#collapseExample4"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample4"
+            >
+              Ébano Africano
+            </a>
+            <a
+              class="btn btn-madeiras btn-outline-dark"
+              data-toggle="collapse"
+              href="#collapseExample5"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample5"
+            >
+              Braúna
+            </a>
+            <a
+              class="btn btn-madeiras btn-outline-dark"
+              data-toggle="collapse"
+              href="#collapseExample6"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample6"
+            >
+              Cedro Rosa
+            </a>
+            <a
+              class="btn btn-madeiras btn-outline-dark"
+              data-toggle="collapse"
+              href="#collapseExample7"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample7"
+            >
+              Faia (Marupá)
+            </a>
+            <a
+              class="btn btn-madeiras btn-outline-dark"
+              data-toggle="collapse"
+              href="#collapseExample8"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample8"
+            >
+              Cedro Canadense
+            </a>
+            <a
+              class="btn btn-madeiras btn-outline-dark"
+              data-toggle="collapse"
+              href="#collapseExample9"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample9"
+            >
+              Abeto Alemão
+            </a>
+          </p>
+
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              <div class="row">
+                <div class="col-lg-9 better-text better-text">
+                  <h5 class="strong">Jacarandá da Bahia</h5>
+                  <p>
+                    O Jacarandá da Bahia é uma madeira nobre e altamente recomendada para a construção de instrumentos
+                    de corda. É uma madeira cheia de desenhos e seu aspecto no instrumento é diferenciado.
+                  </p>
+                  <p>
+                    É considerado uma madeira densa com variação média de 0,80 a 1,00 g/cm³ (a 15% de umidade), isso
+                    quer dizer que seu peso por metro cubico é relativamente alto. É muito usado para a função de
+                    lateral e fundo de instrumentos de corda.
+                  </p>
+                  <p>
+                    É uma madeira realmente linda. Tem linhas indo desde o marrom claro, passando pelo laranja, roxo,
+                    marrom escuro, as vezes chega a beirar o preto. Alguns acreditam que esta é a melhor madeira do
+                    mundo para a função de corpo. Outros dizem que existem outras madeiras melhores para isso. De fato,
+                    existem outras madeiras que ao considerar suas especificações técnicas, conclui-se que são
+                    superiores ao Jacarandá. Porém a trabalhabilidade delas mostra-se mais difícil.
+                  </p>
+                  <p>
+                    Com relação ao som, por ser uma madeira mais dura, o Jacarandá tem a característica de timbre mais
+                    quente, com mais brilho. Isso faz com que o instrumento tenha uma beleza indescritível quando
+                    tocado. Ao juntar essa característica com sua beleza visual, é impossível não se apaixonar por
+                    instrumentos de corda feitos com Jacarandá.
+                  </p>
+                </div>
+                <div class="col-lg-3">
+                  <img class="img-fluid" src="img/madeiras/jacaranda.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="collapse" id="collapseExample2">
+            <div class="card card-body">
+              <div class="row">
+                <div class="col-lg-9 better-text">
+                  <h5 class="strong">Imbuia</h5>
+                  <p>
+                    A Imbuia é uma madeira de cor variada com muitos veios mais próximo ao marrom, ela é uma madeira
+                    pesada e sua densidade é de 0.65 g/cm3, resistente e de ótima sustentação do som. Usado geralmente
+                    em corpo e braço de guitarras, baixos, instrumentos acústicos como o violão e o piano.
+                  </p>
+                  <p>Uso: fundo, lateral e cavalete.</p>
+                </div>
+                <div class="col-lg-3">
+                  <img class="img-fluid" src="img/madeiras/imbuia.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="collapse" id="collapseExample3">
+            <div class="card card-body">
+              <div class="row">
+                <div class="col-lg-9 better-text">
+                  <h5>Roxinho</h5>
+                  <p>
+                    Não é apenas uma espécie de árvore que produz madeira denominada roxinho. Diversas estão inclusas no
+                    mesmo gênero (Peltogyne sp), cada qual com seu nome e singularidades. Porém, possuem muito mais
+                    similaridades do que diferenças, e por isso, são tratadas juntas.
+                  </p>
+                  <p>
+                    São nativas do Brasil e podem ser encontradas em países vizinhos e da América Latina, como Bolívia,
+                    Colômbia e Suriname.
+                  </p>
+                  <p>
+                    A madeira roxinho também é conhecida como pau-roxo, pau-mulato, roxinho-pororoca, guarabu, entre
+                    outros.
+                  </p>
+                  <p>
+                    Assim que é cortada, a madeira roxinho na verdade apresenta uma coloração castanho-escuro, porém, em
+                    pouco tempo ela adquire o tom roxo intenso ou de violeta púrpura. A exposição ao ar é o que faz com
+                    que a madeira mude sua cor.
+                  </p>
+                  <p>
+                    A madeira roxinho e bem pesada e dura, pode ser bem trabalhada porque aceita a colagem e adquire bom
+                    acabamento. Porém, ela exsuda uma resina quando é aquecida, o que torna o trabalho com máquinas um
+                    pouco mais complicado.
+                  </p>
+                  <p>
+                    Não é uma madeira que apresenta rachaduras com facilidade, e nem mesmo empena.
+                  </p>
+                  <p>Uso: fundo, lateral e cavalete.</p>
+                </div>
+                <div class="col-lg-3">
+                  <img class="img-fluid" src="img/madeiras/roxinho.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="collapse" id="collapseExample4">
+            <div class="card card-body">
+              <div class="row">
+                <div class="col-lg-9 better-text">
+                  <h5>Ébano Africano</h5>
+                  <p>
+                    O Ébano é uma madeira escura e pesada é uma das principais madeiras usadas na área da luthieria, da
+                    um timbre brilhante, cheio e intrigante para o instrumento. É uma das madeiras que tem a menor
+                    velocidade sonora. Muito usado em escala de instrumentos acústicos como violão, violino, contrabaixo
+                    e também é usado em escalas de guitarra e baixo elétrico.
+                  </p>
+                  <p>Uso: escala e cavalete</p>
+                </div>
+                <div class="col-lg-3">
+                  <img class="img-fluid" src="img/madeiras/ebano.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="collapse" id="collapseExample5">
+            <div class="card card-body">
+              <div class="row">
+                <div class="col-lg-9 better-text">
+                  <h5>Braúna</h5>
+                  <p>
+                    Madeira de alta densidade e extrema dureza. De coloração marron escuro ao negro. Usada
+                    preferencialmente em escalas de intrumentos sem trastes devido a elevada resistência ao atrito das
+                    cordas. Semelhante ao Ébano Africano em beleza e cor.
+                  </p>
+                  <p>
+                    Sua superfície é opaca, lisa e compacta. A madeira é dura e textura fina. Sem cheiro ou sabor
+                    perceptíveis.
+                  </p>
+                  <p>
+                    Possui alta massa específica e (madeira muito pesada) alta resistência mecânica. Tem baixa
+                    retratibilidade volumétrica e alta resistência natural ao ataque de fungos apodrecedores e insetos.
+                  </p>
+                  <p>Uso: escala e cavalete</p>
+                </div>
+                <div class="col-lg-3">
+                  <img class="img-fluid" src="img/madeiras/brauna.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="collapse" id="collapseExample6">
+            <div class="card card-body">
+              <div class="row">
+                <div class="col-lg-9 better-text">
+                  <h5>Cedro Rosa</h5>
+                  <p>
+                    O cedro é conhecido por ser uma das madeiras mais leves, com uma cor próxima a um bege escuro e
+                    média resistência. Apesar de ser de baixa densidade tem um som bem característico e encorpado. Usado
+                    geralmente em tampos, corpo e braço de de instrumentos acústicos. Sonoridade com menor peso e
+                    bastante aberta, balanço de som com bom equilíbrio.
+                  </p>
+                  <p>
+                    Uso: tampo, fundo, lateral e braço.
+                  </p>
+                </div>
+                <div class="col-lg-3">
+                  <img class="img-fluid" src="img/madeiras/cedro_rosa.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="collapse" id="collapseExample7">
+            <div class="card card-body">
+              <div class="row">
+                <div class="col-lg-9 better-text">
+                  <h5>Faia(Marupá)</h5>
+                  <p>
+                    Conhecida como Caxeta, também usada para fazer palitos de fósforo é uma madeira de cor clara, bem
+                    leve e com densidade de 0.38 g/cm3, tem ótima velocidade do som, é uma madeira muito usada para
+                    fazer instrumentos nacionais. Muito utilizado em corpo e braço de guitarras e baixos.
+                  </p>
+                  <p>
+                    Uso: lateral, fundo, detalhe de braço.
+                  </p>
+                </div>
+                <div class="col-lg-3">
+                  <img class="img-fluid" src="img/madeiras/faia.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="collapse" id="collapseExample8">
+            <div class="card card-body">
+              <div class="row">
+                <div class="col-lg-9 better-text">
+                  <h5>Cedro Canadense</h5>
+                  <p>
+                    O Pinho é conhecido por ser uma madeira macia, usada em instrumentos acústicos é elétricos, sua cor
+                    varia do bege ao amarelo quando envernizada, quando usada em tampo de instrumentos acústicos produz
+                    um som claro e brilhante e muito singular. Bastante utilizado em tampo de violão, corpo e braço de
+                    guitarra e baixos.
+                  </p>
+                  <p>
+                    Uso: tampo.
+                  </p>
+                </div>
+                <div class="col-lg-3">
+                  <img class="img-fluid" src="img/madeiras/cedro_canadense.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="collapse" id="collapseExample9">
+            <div class="card card-body">
+              <div class="row">
+                <div class="col-lg-9 better-text">
+                  <h5>Abeto Alemão</h5>
+                  <p>
+                    Conhecida como norway spruce, german spruce, common spruce, european spruce, carpathian spruce,
+                    épicéa commun (em francês), espruce europeu, espruce alpino, espruce alemão, abeto-europeu,
+                    abeto-alemão, abeto rosso (em italiano) ou pinho sueco A Picea abies é muito valorizada para tampo
+                    de instrumentos de corda (viola de orquestra, viola caipira, cavaquinho, bandolim, violão, violino,
+                    violoncelo etc). Para instrumentos musicais, a madeira fornecida pela Alemanha e Itália é a mais
+                    valorizada pelos brasileiros. Na Europa, as árvores que crescem nos Alpes (Áustria, Itália,
+                    Alemanha, França, Suíça etc) são as preferidas para a fabricação de instrumentos musicais. Além de
+                    tampos em instrumentos de corda é também utilizada para tábua harmônica de pianos e corpos de
+                    guitarra.
+                  </p>
+                  <p>
+                    Uso: tampo.
+                  </p>
+                </div>
+                <div class="col-lg-3">
+                  <img class="img-fluid" src="img/madeiras/abeto_alemao.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="fb-root"></div>
+      <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
+
+      <h3 class="text-center my-5">Videos</h3>
+      <div class="row mb-5 mt-3">
+        <div class="col-lg-4">
+          <div
+            class="fb-video"
+            data-href="https://www.facebook.com/tindolelecomvoceoficial/videos/1126732764041472/?v=1126732764041472"
+            data-width="500"
+            data-show-text="false"
+          >
+            <blockquote
+              cite="https://www.facebook.com/tindolelecomvoceoficial/videos/1126732764041472/"
+              class="fb-xfbml-parse-ignore"
+            >
+              <a href="https://www.facebook.com/tindolelecomvoceoficial/videos/1126732764041472/"></a>
+              <p>TOP Cavaco Super Luxo Jacob Luthier🎶🎸</p>
+              Posted by <a href="https://www.facebook.com/tindolelecomvoceoficial/">TiNdOlelê</a> on Saturday, November
+              26, 2016
+            </blockquote>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div
+            class="fb-video"
+            data-href="https://www.facebook.com/tiago.almeida.37669528/videos/1050280485093230/"
+            data-width="500"
+            data-show-text="false"
+          >
+            <blockquote
+              cite="https://www.facebook.com/tiago.almeida.37669528/videos/1050280485093230/"
+              class="fb-xfbml-parse-ignore"
+            >
+              <a href="https://www.facebook.com/tiago.almeida.37669528/videos/1050280485093230/"></a>
+              <p>Depois viram novos vídeos vlw abraço à todos!</p>
+              Posted by
+              <a href="https://www.facebook.com/tiago.almeida.37669528">Tiago Almeida</a> on Thursday, September 8, 2016
+            </blockquote>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div
+            class="fb-video"
+            data-href="https://www.facebook.com/jeancristian.cristianregis/videos/1208259195946556/"
+            data-width="500"
+            data-show-text="false"
+          >
+            <blockquote
+              cite="https://www.facebook.com/jeancristian.cristianregis/videos/1208259195946556/"
+              class="fb-xfbml-parse-ignore"
+            >
+              <a href="https://www.facebook.com/jeancristian.cristianregis/videos/1208259195946556/"></a>
+              <p>
+                Cavaco Jacob Luthier em cedro macio muito lindo acabamento perfeito procurar no fecebook pra
+                informações. obrigado Jacob.
+              </p>
+              Posted by
+              <a href="https://www.facebook.com/jeancristian.cristianregis">Jean Cristian Cristian Regis</a>
+              on Sunday, September 3, 2017
+            </blockquote>
+          </div>
+        </div>
+      </div>
+
+      <div class="row my-4">
+        <div class="col-lg-4">
+          <div
+            class="fb-video"
+            data-href="https://www.facebook.com/Fidocavaco/videos/1151237394921802/"
+            data-width="500"
+            data-show-text="false"
+          >
+            <blockquote
+              cite="https://www.facebook.com/Fidocavaco/videos/1151237394921802/"
+              class="fb-xfbml-parse-ignore"
+            >
+              <a href="https://www.facebook.com/Fidocavaco/videos/1151237394921802/"></a>
+              <p>
+                Tocando certo Cavaquinho - Música Divã Sem Compromisso #FiDoCavaco, #Aulas - whatsapp 1195530-2968
+              </p>
+              Posted by <a href="https://www.facebook.com/Fidocavaco">Janair Rocha</a> on Monday, September 19, 2016
+            </blockquote>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div
+            class="fb-video"
+            data-href="https://www.facebook.com/RafaelFariasAlexia/videos/1694878430747880/"
+            data-width="500"
+            data-show-text="false"
+          >
+            <blockquote
+              cite="https://www.facebook.com/RafaelFariasAlexia/videos/1694878430747880/"
+              class="fb-xfbml-parse-ignore"
+            >
+              <a href="https://www.facebook.com/RafaelFariasAlexia/videos/1694878430747880/"></a>
+              <p>
+                Mais um banjo pra coleção hahahah Feito pelo Jacob Luthier Jacob Luthier II... Valeu irmão pela atenção
+                e pelo carinho tamo junto e muita luz para toda a tua família abração.
+              </p>
+              Posted by <a href="https://www.facebook.com/RafaelFariasAlexia">Rafael Farias</a> on Thursday, August 20,
+              2015
+            </blockquote>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div
+            class="fb-video"
+            data-href="https://www.facebook.com/jacob.luthier/videos/10203855478379627/"
+            data-width="500"
+            data-height="290"
+            data-show-text="false"
+          >
+            <blockquote
+              cite="https://www.facebook.com/jacob.luthier/videos/10203855478379627/"
+              class="fb-xfbml-parse-ignore"
+            >
+              <a href="https://www.facebook.com/jacob.luthier/videos/10203855478379627/"></a>
+              <p>cavaco mega luxo,jacob luthier.</p>
+              Posted by <a href="https://www.facebook.com/jacob.luthier">Jacob Luthier</a> on Sunday, May 17, 2015
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer"></div>
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/main.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('.btn-madeiras').click(function() {
+          $('.active').removeClass('active');
+          if ($(this).attr('aria-expanded') == 'false') {
+            $(this).addClass('active');
+          }
+          $('.collapse.show').collapse('hide');
+        });
+        $('#collapseExample').collapse('show');
+        $('.active').focus();
+      });
+    </script>
+  </body>
+</html>
